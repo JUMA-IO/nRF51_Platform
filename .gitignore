@@ -21,6 +21,7 @@
 *.dylib
 
 # Executables
+*.exe
 *.out
 *.app
 *.i*86
@@ -29,6 +30,3 @@
 
 # Debug files
 *.dSYM/
-
-#user inf
-*.uvguix.*
