@@ -109,7 +109,7 @@ typedef struct _adc_result_t {
 
 typedef struct {
 	const uint8_t *font_table;
-  uint8_t space;
+    uint8_t space;
 	uint8_t width;
 	uint8_t height;
 	char start_char;
