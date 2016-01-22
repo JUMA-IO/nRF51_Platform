@@ -1,8 +1,0 @@
---cpu Cortex-M0
-".\build\app.o"
-".\build\lis2dh12.o"
-"..\..\..\lib\juma_sdk.lib"
---library_type=microlib --diag_suppress 6305 --strict --scatter "..\..\..\lib\juma_sdk.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\build\app.map" -o .\build\app.axf

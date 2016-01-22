@@ -1,32 +1,0 @@
-Dependencies for Project 'app', Target 'Release': (DO NOT MODIFY !)
-F (..\app.c)(0x5672624A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I..\..\..\include -I..\..\LIS2DH12-I "E:\SDK\JUMA SDK 20151203\JUMA SDK\Embedded\Nordic\examples\acc\arm\RTE"-I C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include-I C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\hal-D__UVISION_VERSION="514" -D_RTE_ -DNRF51-o .\build\app.o --omf_browse .\build\app.crf --depend .\build\app.d)
-I (..\..\..\include\juma_sdk_api.h)(0x565EACFC)
-I (..\..\..\include\juma_sdk_types.h)(0x565EAE18)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\string.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51_bitfields.h)(0x55406632)
-I (..\LIS2DH12.h)(0x565FA68C)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51.h)(0x55406632)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\system_nrf51.h)(0x55406634)
-F (..\LIS2DH12.c)(0x565FA68C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork -I..\..\..\include -I..\..\LIS2DH12-I "E:\SDK\JUMA SDK 20151203\JUMA SDK\Embedded\Nordic\examples\acc\arm\RTE"-I C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include-I C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\hal-D__UVISION_VERSION="514" -D_RTE_ -DNRF51-o .\build\lis2dh12.o --omf_browse .\build\lis2dh12.crf --depend .\build\lis2dh12.d)
-I (..\LIS2DH12.h)(0x565FA68C)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51.h)(0x55406632)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC31DA)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\system_nrf51.h)(0x55406634)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include\nrf51_bitfields.h)(0x55406632)
-I (C:\nigel\software\keil_mdk514\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\hal\nrf_gpio.h)(0x554B0548)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\..\..\include\juma_sdk_api.h)(0x565EACFC)
-I (..\..\..\include\juma_sdk_types.h)(0x565EAE18)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (C:\nigel\software\keil_mdk514\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\..\..\lib\juma_sdk.lib)(0x565FA6E6)()
