@@ -14,3 +14,19 @@ You can open the following file to supplement the SDK：
 ``
 Platform/Project/device.uvprojx
 ``
+
+The SDK will also provide a .lib for user's app to build with. It is automatically generated using Python.
+
+Following the steps below to build the platform, interface and test with Examples
+
+1. run 'python update.py' in 'Interface' folder. 
+2. open and build
+``
+Interface/Project/juma_sdk.uvprojx
+``
+3. open SDK and build
+``
+Platform/Project/device.uvprojx
+``
+4. copy 'Example/projects' to folder 'Product/sdk/' and build your own app.
+Voila!
