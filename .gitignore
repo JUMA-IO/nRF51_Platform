@@ -38,6 +38,11 @@ JLinkSettings.ini
 JLinkLog.txt
 
 # Product folder and build folder
-Product/
 Interface/Project/build/
 Platform/Project/build_device
+RTE/
+Listings/
+Objects/
+uvoptx/
+Output/
+
