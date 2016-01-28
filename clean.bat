@@ -18,6 +18,11 @@ del /a/f/q/s ".\*.lnp"
 del /a/f/q/s ".\JLinkLog.txt"
 del /a/f/q/s ".\JLinkSettings.ini"
 
+
+del /a/f/q/s ".\*.uvgui.*"
 del /a/f/q/s ".\*.uvguix.*"
-:del /a/f/q/s ".\*.uvoptx.*"
+del /a/f/q/s ".\*.uvoptx.*"
+
+
+
 pause
