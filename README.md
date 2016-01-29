@@ -8,18 +8,18 @@ This is the most Easy-to-Use Bluetooth Smart 4.0 SDK for embedded development in
 
 If you plan to develop an app using this SDK, please use the stable branch or the last released tarball. The master branch is continuously evolving, could be unstable and could change very often.
 
-####Build to image files：
+####01：Build to image files：
 
 ``
 Platform/Project/device.uvprojx
 ``
 
-####Build to .lib files:
+####02：Build to .lib files:
 ``
 Interface/Project/juma_sdk.uvprojx
 ``
 
-####Python Building tools:
+####03：Python Building tools:
 The SDK will also provide a .lib for user's app to build with. It is automatically generated using Python.
 
 Following the steps below to build the platform, interface and test with Examples
@@ -33,8 +33,12 @@ Interface/Project/juma_sdk.uvprojx
 ``
 Platform/Project/device.uvprojx
 ``
-4. copy 'Example/projects' to folder 'Product/sdk/' and build your own app.
-Voila!
+
+####04：Building user application:
+1. copy 'Product/Example/Template' or 'Product/Projects/Template' to folder 'Product/Projects/'.
+2. Rename to your own project.
+3. Began to play your talents.
+
 
 ##More Info:
 ******
