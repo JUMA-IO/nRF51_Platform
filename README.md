@@ -33,7 +33,7 @@ Interface/Project/juma_sdk.uvprojx
 ``
 Platform/Project/device.uvprojx
 ``
-4. copy 'Example/projects' to folder 'Product/sdk/' and build your own app.
+4. copy 'Product\Examples\Template' to folder 'Product\Projects' and build your own app.
 Voila!
 
 ##More Info:
