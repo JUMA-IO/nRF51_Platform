@@ -126,6 +126,10 @@ inline void ble_device_send(uint8_t type, uint32_t length, uint8_t* value)
 {
 	sys->ble_device_send(type, length, value);
 }
+inline uint8_t random_generate(void)
+{
+	return sys->random_generate();
+}
 inline void serial_send(uint8_t* data, uint32_t length)
 {
 	sys->serial_send(data, length);

@@ -43,6 +43,7 @@ struct _system_descriptor_t  {
 	void (*ble_device_stop_advertising)(void);
 	void (*ble_device_disconnect)(void);
 	void (*ble_device_send)(uint8_t type, uint32_t length, uint8_t* value);
+	uint8_t (*random_generate)(void);
 	void (*serial_send)(uint8_t* data, uint32_t length);
 	void (*serial_setup)(uint8_t rx_pin, uint8_t tx_pin, uint32_t baudrate);
 	void (*spi_setup)(spi_init_struct_t * spi_struct);

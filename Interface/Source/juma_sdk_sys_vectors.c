@@ -26,6 +26,7 @@ const system_descriptor_t sys = {
 	ble_device_stop_advertising,
 	ble_device_disconnect,
 	ble_device_send,
+	random_generate,
 	serial_send,
 	serial_setup,
 	spi_setup,
