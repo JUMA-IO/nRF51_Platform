@@ -60,7 +60,7 @@ syscalls = [
     ['void', 'ble_device_stop_advertising', []],
     ['void', 'ble_device_disconnect', []],
     ['void', 'ble_device_send', [('uint8_t', 'type'), ('uint32_t', 'length'), ('uint8_t*', 'value')]],
-
+    ['uint8_t', 'random_generate',[]],
     #['void', 'hif_setup', [('uint8_t', 'rx_pin'), ('uint8_t', 'tx_pin')]],
     #['void', 'hif_send', [('uint8_t*', 'data'), ('uint32_t', 'size')]],
     ['void', 'serial_send', [('uint8_t*', 'data'), ('uint32_t', 'length')]],
