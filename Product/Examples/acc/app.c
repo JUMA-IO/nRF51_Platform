@@ -125,7 +125,7 @@ void on_ready()
   LIS2DH12_Set_Data_Rate(LIS2DH12_DATA_RAT_10HZ);  
  
   ble_device_set_advertising_interval(2000);
-  ble_device_set_name("NigeL");
+  ble_device_set_name("JUMA_acc");
   ble_device_start_advertising();
     
   light_en = 0;
