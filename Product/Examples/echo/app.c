@@ -14,7 +14,7 @@
 
 #include "juma_sdk_api.h"
 
-#define LED_1 2
+#define LED_1 5
 
 void led_on_task(void* args);
 void led_off_task(void* args);

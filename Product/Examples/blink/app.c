@@ -14,7 +14,7 @@
 
 #include "juma_sdk_api.h"
 
-#define LED_1 18
+#define LED_1 5
 
 void led_on_task(void* args);
 void led_off_task(void* args);
@@ -23,6 +23,8 @@ void on_ready()
 {
   gpio_setup(LED_1, GPIO_OUTPUT);
   run_after_delay(led_on_task, NULL, 100);
+	ble_device_set_name("blink");
+  ble_device_start_advertising();
 }
 
 void led_on_task(void* args)
