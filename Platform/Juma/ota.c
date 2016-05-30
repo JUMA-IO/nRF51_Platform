@@ -329,8 +329,13 @@ void enter_ota_mode(uint8_t type, uint16_t length, uint8_t* data)
   if(!(strcmp((char *)data, "OTA_MODE")))
   {
     enter_ota_mode_statue = 1;
-    flash_set_function_callback_point(enter_ota_mode_callback);
-    flash_clear(APP_ZONE_BASE, APP_ZONE_SIZE);
   }
 }
+
+void enter_ota_process(void * args)
+{
+  flash_set_function_callback_point(enter_ota_mode_callback);
+  flash_clear(APP_ZONE_BASE, APP_ZONE_SIZE);
+}
+
 /*-----------------------------------------------------------------------------------*/
