@@ -575,6 +575,9 @@ void serial_get(void);
 
 void watchDog_sys_SDK_dog1_RR(void);
 
+//ota status
+extern uint8_t enter_ota_mode_statue;
+void enter_ota_process(void * args);
 /*****************************************************************************
  * Main Function
  *****************************************************************************/
@@ -616,7 +619,16 @@ int main(void)
   for (;;)
   {
       watchDog_sys_SDK_dog1_RR();
-      dispatch();
+    
+      if(0 != enter_ota_mode_statue)
+      {
+        enter_ota_process(NULL);
+      }
+      else
+      {
+        dispatch();
+      }
+      
       serial_get();
       // Switch to a low power state until an event is available for the application
       err_code = sd_app_evt_wait();
