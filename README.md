@@ -1,4 +1,8 @@
 # nRF51_Platform
+
+##教程(重要)
+[http://www.juma.io/doc/zh/nrf51_platform/guide/](http://www.juma.io/doc/zh/nrf51_platform/guide/)
+
 ******
 JUMA.IO Platform for nRF51 SoC.
 
@@ -42,7 +46,5 @@ When you download repository and open project, you have to set correct your targ
 
 More information below [http://juma.io](http://www.juma.io)
 
-First time with Discovery SDK? [http://juma.io/sdk.html](http://www.juma.io/sdk.html)
 
-How to use these API? [http://juma.io/doc/zh/embedded_sdk.html](http://www.juma.io/doc/zh/embedded_sdk.html)
 
